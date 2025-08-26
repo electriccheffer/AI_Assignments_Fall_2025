@@ -1,0 +1,16 @@
+services:
+  ros2:
+    build: 
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+    container_name: ros2_container
+    platform: "linux/arm64/v8"
+    tty: true
+    stdin_open: true
+    volumes: 
+      - ./ws:/home/rosuser/ros2_ws
+    network_mode: host
+    environment:
+      - DISPLAY=${DISPLAY}
+      - ROS_DOMAIN_ID=0
+    command: bash
