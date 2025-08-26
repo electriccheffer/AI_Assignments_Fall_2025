@@ -1,0 +1,31 @@
+{
+"name": "ROS 2 Humble Dev Container", 
+"build": {
+	"dockerfile": "Dockerfile",
+	"args": {
+		"USERNAME": "rosuser"
+	}
+
+	},
+
+"runArgs": ["--privileged","--network=host","--add-host=docker.internal:host-gateway"],
+"workspaceFolder":"/home/rosuser/ros2_ws",
+"customizations":{
+
+	"vscode":{
+		"extensions":[
+			"ms-vscode.cpptools",
+			"ms-python.python",
+			"ms-iot.vscode-ros"
+		]
+	
+	}
+
+},
+"remoteUser":"rosuser",
+"containerEnv": {
+	"DISPLAY":"host.docker.internal:0.0",
+	"QT_X11_NO_MITSHM":"1"
+},
+"postCreateCommand":"sudo apt update && sudo apt install -y libx11-6 libxext6 libxrender1 libxrandr2 libxcb1 libxkbcommon-x11-0 libx11-xcb1 libxi6 libgl1 libgl1-mesa-dri x11-apps && rosdep install --from-paths src --ignore-src -r -y"
+}
