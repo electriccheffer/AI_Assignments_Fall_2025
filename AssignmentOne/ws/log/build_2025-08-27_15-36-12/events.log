@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.002112] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.002538] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.067295] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.070110] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/rosuser/ros2_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/rosuser/ros2_ws/install/cpp_pubsub'], 'cwd': '/home/rosuser/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rosuser'), ('OLDPWD', '/home/rosuser/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/rosuser/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097859] (-) TimerEvent: {}
+[0.198808] (-) TimerEvent: {}
+[0.299696] (-) TimerEvent: {}
+[0.403910] (-) TimerEvent: {}
+[0.508908] (-) TimerEvent: {}
+[0.615671] (-) TimerEvent: {}
+[0.718737] (-) TimerEvent: {}
+[0.819754] (-) TimerEvent: {}
+[0.860124] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.920864] (-) TimerEvent: {}
+[1.021690] (-) TimerEvent: {}
+[1.131677] (-) TimerEvent: {}
+[1.232697] (-) TimerEvent: {}
+[1.336546] (-) TimerEvent: {}
+[1.400326] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.436634] (-) TimerEvent: {}
+[1.448307] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.537862] (-) TimerEvent: {}
+[1.642547] (-) TimerEvent: {}
+[1.748697] (-) TimerEvent: {}
+[1.851686] (-) TimerEvent: {}
+[1.956674] (-) TimerEvent: {}
+[2.057684] (-) TimerEvent: {}
+[2.158667] (-) TimerEvent: {}
+[2.260682] (-) TimerEvent: {}
+[2.331928] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.361721] (-) TimerEvent: {}
+[2.362329] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.363129] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.364171] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.371036] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.462662] (-) TimerEvent: {}
+[2.564778] (-) TimerEvent: {}
+[2.665691] (-) TimerEvent: {}
+[2.769672] (-) TimerEvent: {}
+[2.870672] (-) TimerEvent: {}
+[2.972012] (-) TimerEvent: {}
+[3.079678] (-) TimerEvent: {}
+[3.180677] (-) TimerEvent: {}
+[3.196610] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.222861] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.224384] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.224755] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.240407] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.281638] (-) TimerEvent: {}
+[3.382676] (-) TimerEvent: {}
+[3.487695] (-) TimerEvent: {}
+[3.588668] (-) TimerEvent: {}
+[3.693669] (-) TimerEvent: {}
+[3.794683] (-) TimerEvent: {}
+[3.895660] (-) TimerEvent: {}
+[3.996661] (-) TimerEvent: {}
+[4.097655] (-) TimerEvent: {}
+[4.202651] (-) TimerEvent: {}
+[4.213790] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.303687] (-) TimerEvent: {}
+[4.407140] (-) TimerEvent: {}
+[4.509775] (-) TimerEvent: {}
+[4.512336] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.576539] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.585442] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.597073] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.610637] (-) TimerEvent: {}
+[4.615819] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.638043] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.701131] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.704964] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.711629] (-) TimerEvent: {}
+[4.812681] (-) TimerEvent: {}
+[4.913784] (-) TimerEvent: {}
+[5.018611] (-) TimerEvent: {}
+[5.121659] (-) TimerEvent: {}
+[5.222653] (-) TimerEvent: {}
+[5.323650] (-) TimerEvent: {}
+[5.359105] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.409762] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.425075] (-) TimerEvent: {}
+[5.495658] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.509981] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.525681] (-) TimerEvent: {}
+[5.627670] (-) TimerEvent: {}
+[5.728677] (-) TimerEvent: {}
+[5.830655] (-) TimerEvent: {}
+[5.931654] (-) TimerEvent: {}
+[6.035744] (-) TimerEvent: {}
+[6.139683] (-) TimerEvent: {}
+[6.244669] (-) TimerEvent: {}
+[6.314676] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.316903] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.345863] (-) TimerEvent: {}
+[6.450636] (-) TimerEvent: {}
+[6.555662] (-) TimerEvent: {}
+[6.660658] (-) TimerEvent: {}
+[6.765660] (-) TimerEvent: {}
+[6.866678] (-) TimerEvent: {}
+[6.967663] (-) TimerEvent: {}
+[7.072674] (-) TimerEvent: {}
+[7.143962] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.146688] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.173677] (-) TimerEvent: {}
+[7.236897] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.274652] (-) TimerEvent: {}
+[7.375653] (-) TimerEvent: {}
+[7.480671] (-) TimerEvent: {}
+[7.509881] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.510825] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[7.512316] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.514702] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.522541] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.522956] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.524534] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.535005] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.549747] (cpp_pubsub) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (add_executable):\n'}
+[7.552023] (cpp_pubsub) StderrLine: {'line': b'  Target "talker" links to target\n'}
+[7.552297] (cpp_pubsub) StderrLine: {'line': b'  "rclcpp::rclcppstd_msgs::std_msgs__rosidl_generator_c" but the target was\n'}
+[7.552519] (cpp_pubsub) StderrLine: {'line': b'  not found.  Perhaps a find_package() call is missing for an IMPORTED\n'}
+[7.553547] (cpp_pubsub) StderrLine: {'line': b'  target, or an ALIAS target is missing?\n'}
+[7.553998] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[7.554498] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[7.581707] (-) TimerEvent: {}
+[7.612066] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[7.619808] (cpp_pubsub) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[7.635946] (cpp_pubsub) CommandEnded: {'returncode': 1}
+[7.682701] (-) TimerEvent: {}
+[7.783768] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 1}
+[7.785643] (-) TimerEvent: {}
+[7.795749] (-) EventReactorShutdown: {}

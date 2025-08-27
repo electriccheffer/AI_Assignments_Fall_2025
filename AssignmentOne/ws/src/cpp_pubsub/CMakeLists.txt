@@ -14,8 +14,12 @@ find_package(std_msgs REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 add_executable(talker src/publisher.cpp)
-target_link_libraries(talker PUBLIC rclcpp::rclcpp${std_msgs_TARGETS})
-install(TARGETS talker DESTINATION lib/${PROJECT_NAME})
+add_executable(listener src/subscriber.cpp)
+
+ament_target_dependencies(talker rclcpp std_msgs)
+ament_target_dependencies(listener rclcpp std_msgs)
+
+install(TARGETS talker listener DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

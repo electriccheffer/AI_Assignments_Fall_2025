@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 50%] Built target listener
+[ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Installing: /home/rosuser/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+-- Set runtime path of "/home/rosuser/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+-- Installing: /home/rosuser/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+-- Set runtime path of "/home/rosuser/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+-- Installing: /home/rosuser/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+-- Installing: /home/rosuser/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+-- Installing: /home/rosuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+-- Installing: /home/rosuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+-- Installing: /home/rosuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+-- Installing: /home/rosuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+-- Installing: /home/rosuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+-- Installing: /home/rosuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+-- Installing: /home/rosuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+-- Installing: /home/rosuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+-- Installing: /home/rosuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+-- Installing: /home/rosuser/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+-- Installing: /home/rosuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+-- Installing: /home/rosuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+-- Installing: /home/rosuser/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
